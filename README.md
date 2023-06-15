@@ -2,8 +2,6 @@
 
 ## WORK IN PROGRESS
 
-_Add badges upon testing_
-
 ## Demo & Snippets
 
 <img width="254" alt="coin-changer-demo" src="https://github.com/mitchanderson202/Coin-Changer/assets/78459081/8dac24e2-5250-4c96-af30-daaf9f7cc8e3">
@@ -21,7 +19,8 @@ _Add badges upon testing_
 
 ## Build Steps
 
-- Not ready yet.
+- git clone https://github.com/mitchanderson202/Coin-Changer.git
+- open in terminal or IDE of choice and run App.java file
 
 ---
 
