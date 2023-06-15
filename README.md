@@ -6,8 +6,9 @@ _Add badges upon testing_
 
 ## Demo & Snippets
 
-- Include hosted link
-- Include images of app if CLI or Client App
+<img width="254" alt="coin-changer-demo" src="https://github.com/mitchanderson202/Coin-Changer/assets/78459081/8dac24e2-5250-4c96-af30-daaf9f7cc8e3">
+
+- More to come
 
 ---
 
