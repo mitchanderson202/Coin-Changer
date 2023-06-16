@@ -30,6 +30,7 @@ public class App {
         short numOfTwenty = twenty.twentyCoins(change);
         change -= numOfTwenty * 20;
 
+
         Ten ten = new Ten();
         short numOfTen = ten.tenCoins(change);
         change -= numOfTen * 10;
@@ -38,14 +39,35 @@ public class App {
         short numOfFive = five.fiveCoins(change);
         change -= numOfFive * 5;
 
+        short coins = (short)(numOfFifty + numOfTwenty + numOfTen + numOfFive);
 
-            short coins = (short)(numOfFifty + numOfTwenty + numOfTen + numOfFive);
+        
+      short remainingCoins = (short)(change % 100);
+
+        if (remainingCoins == 3 || remainingCoins == 4) {
+            numOfFive++;
+            coins++;
+        }
+
+      
 
             System.out.println("You need " + coins + " coins!");
             System.out.println("You need " + numOfFifty + " 50c coins!");
             System.out.println("You need " + numOfTwenty + " 20c coins!");
             System.out.println("You need " + numOfTen + " 10c coins!");
             System.out.println("You need " + numOfFive + " 5c coins!");
+
+         
+
+            if (remainingCoins == 1) {
+                System.out.println("1c wastage to the customer");            
+            } else if (remainingCoins == 2) {
+                System.out.println("2c wastage to the customer");
+            } else if ( remainingCoins == 3) {
+                System.out.println("2c wastage to the business");
+            } else if (remainingCoins == 4) {
+                System.out.println("1c wastage to the business");
+            }
 
         
             scanner.close();
