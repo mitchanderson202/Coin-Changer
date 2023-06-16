@@ -4,9 +4,9 @@
 
 ## Demo & Snippets
 
-<img width="254" alt="coin-changer-demo" src="https://github.com/mitchanderson202/Coin-Changer/assets/78459081/8dac24e2-5250-4c96-af30-daaf9f7cc8e3">
+<img width="260" alt="coin-change-round-down" src="https://github.com/mitchanderson202/Coin-Changer/assets/78459081/907b44cd-9cbc-404f-9641-aea7c190e5c2">
+<img width="257" alt="coin-changer-round-up" src="https://github.com/mitchanderson202/Coin-Changer/assets/78459081/e666c715-ceec-4663-9a5b-cdd89305cdfb">
 
-- More to come
 
 ---
 
