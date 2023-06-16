@@ -1,7 +1,7 @@
 public class Fifty {
-    private int fifty = 50;
+    private short fifty = 50;
 
-    public int fiftyCoins(int change) {
-        return change / fifty;
+    public short fiftyCoins(short change) {
+        return (short)(change / fifty);
     }
 }
